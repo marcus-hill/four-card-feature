@@ -36,7 +36,7 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
+  line-height: 1.5rem;
 }
 
 /* A elements that don't have a class get default styles */
@@ -94,7 +94,7 @@ main {
 .title-section {
     color: #4D4F62;
     text-align: center;
-    max-width: 33.75rem;
+    max-width: 20.5rem;
     margin: 5rem 2rem 4.875rem 2rem;
 }
 
@@ -169,7 +169,7 @@ main {
 }
 
 
-@media (min-width: 45.625rem) {
+@media (min-width: 70rem) {
     .cards-holder {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -197,5 +197,6 @@ main {
     }
     .title-section {
         margin-bottom: 4rem;
+        max-width: 30.8rem;
     }
 }
